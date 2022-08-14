@@ -659,39 +659,40 @@
 // //     console.log(`The factorial of ${num} is ${result}`);
 // // }
 // //Switch Statement
-// // var day=5;
-// // switch(day) {
-// //     case 1:
-// //         console.log("Today is Monday");
-// //         break;
-// //     case 2:
-// //         console.log("Today is Tuesday");
-// //         break;
-// //     case 3:
-// //         console.log("Today is Wednesday");
-// //         break;
-// //     default:
-// //         console.log("Today is Sunday")
-// // }
+var day=5;
+switch(day) {
+    case 1:
+        console.log("Today is Monday");
+        break;
+    case 2:
+        console.log("Today is Tuesday");
+        break;
+    case 3:
+        console.log("Today is Wednesday");
+        break;
+    default:
+        console.log("Today is Sunday")
+}
 // //Grouping Case in Switch 
-// // var day = 0;
-// // switch (day) {
-// // case 6:
-// // case 0:
-// // case 5:
-// // console.log("Yaaaa! It's Weekend");
-// // break;
-// // default:
-// // console.log("Looking forward to the Weekend");
-// // }
-// // var day = 6; switch (day)
-// // {
-// // case 6: // No break console.log("Today is Saturday");
-// // case 0: // No break in last case, both will execute
-// // console.log("Today is Sunday");
-// // break; default:
-// // console.log("Looking forward to the Weekend");
-// // }
+var day = 0;
+switch (day) {
+case 6:
+case 0:
+case 5:
+console.log("Yaaaa! It's Weekend");
+break;
+default:
+console.log("Looking forward to the Weekend");
+}
+var day = 6;
+ switch (day)
+{
+case 6: // No break console.log("Today is Saturday");
+case 0: // No break in last case, both will execute
+console.log("Today is Sunday");
+break; default:
+console.log("Looking forward to the Weekend");
+}
 
 // function Prime(number){
 //     if(number<2){
